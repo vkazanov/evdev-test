@@ -1,0 +1,9 @@
+Some [[https://en.wikipedia.org/wiki/Evdev][libevdev]] example code. Should work with any recent GCC.
+
+Usage:
+
+#+begin_src shell
+  make
+  ./evdev-test /dev/input/event6 # path to your keyboard evdev device
+  # ...stupid tests
+#+end_src
